@@ -5,77 +5,96 @@ This document defines typical roles and responsibilities used in OctoAcme projec
 ---
 
 ## Developers
-
-### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
-
-### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
-
-### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
-
-### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
-
----
+... (existing content) ...
 
 ## Product Managers
-
-### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
-
-### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
-
-### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
-
-### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
-
----
+... (existing content) ...
 
 ## Project Managers
-
-### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
-
-### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
-
-### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
-
-### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
+... (existing content) ...
 
 ---
 
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+## Scrum Master / Agile Coach
 
+**Role Summary:** Facilitates team ceremonies, reinforces agile practices, and removes impediments.
+
+**Responsibilities:**
+- Coach the team in agile methods and continuous improvement
+- Remove process blockers and escalate as needed
+- Facilitate standups, planning, and retrospectives
+- Encourage collaboration and self-organization
+
+**Goals:**
+- Enable team autonomy and high performance
+- Instill a continuous improvement and feedback mindset
+
+**Typical Communication:**
+- Works closely with Project Manager, Developers, and Product Manager
+
+---
+
+## UX/UI Designer
+
+**Role Summary:** Ensures user experience quality, accessibility, and design alignment.
+
+**Responsibilities:**
+- Translate user needs and product goals into interface designs
+- Create wireframes, prototypes, and visual specs
+- Advocate for accessibility and usability best practices
+
+**Goals:**
+- Deliver easy-to-use, delightful, and accessible interfaces
+
+**Typical Communication:**
+- Product Manager (requirements), Developers (implementation), Customers (validation)
+
+---
+
+## Customer / End User
+
+**Role Summary:** Provides feedback, validates features, and represents real-world use cases.
+
+**Responsibilities:**
+- Participate in interviews, user testing, or feedback loops
+- Validate that features solve their problems
+
+**Goals:**
+- Ensure solutions meet genuine needs and expectations
+
+**Typical Communication:**
+- Engages with Product Manager and UX Designer during research and validation phases
+
+---
+
+## Subject Matter Expert (SME)
+
+**Role Summary:** Offers specialized domain knowledge and guidance for technical or regulatory requirements.
+
+**Responsibilities:**
+- Advise on complex or regulated topics
+- Review documentation for accuracy
+- Support decision-making for edge cases
+
+**Goals:**
+- Improve accuracy and compliance of outputs
+
+**Typical Communication:**
+- Consulted by Developers, Project/Product Managers as needed
+
+---
+
+## Support Engineer
+
+**Role Summary:** Manages post-release support, triages incidents and handles escalations.
+
+**Responsibilities:**
+- Address user-reported issues
+- Document support trends
+- Escalate critical incidents to engineering or management
+
+**Goals:**
+- Minimize customer downtime, reduce recurring issues
+
+**Typical Communication:**
+- Coordinates with Developers, QA, and Project Manager
